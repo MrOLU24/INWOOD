@@ -1,16 +1,11 @@
 import React from "react";
+import Header from "./Components/header";
 
 function App() {
   return (
-    <div className="bg-blue-500 text-white p-4">
-      <p className="flex justify-center items-center text-amber-800"> Hello inwood family</p>
-      <span>
-        <a href="https://inwood.dev" className="underline">
-          Inwood.dev
-        </a>
-        <img src="./assets/images/bghero.png" alt="" />
-      </span>
-    </div>
+    <main>
+      <Header/>
+    </main>
   );
 }
 export default App;
