@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -10,10 +11,10 @@ const Header = () => {
         <nav className="flex items-center w-full justify-end">
           {/* Hide ul on small screens, show from md and above */}
           <ul className="hidden md:flex font-semibold items-center gap-12 md:m-auto lg:m-auto xl:m-auto">
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About</li>
-            <li>Contact</li>
+          <li><Link to="/">Home</Link></li>
+            <li><Link to="/Shop">Shop</Link></li>
+            <li><Link to="/About">About</Link></li>
+            <li><Link to="/Contacts">Contact</Link></li>
           </ul>
           <span className="flex items-center gap-5 md:gap-10 sm:gap-10 lg:gap-12 xl:gap-16">
             <img src="./icons/profile.svg" alt="profile" />

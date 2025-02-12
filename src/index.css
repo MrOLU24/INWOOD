@@ -10,6 +10,11 @@ body {
 }
 ul li {
   list-style: none;
+  cursor: pointer;
+}
+ul li:hover{
+    text-decoration: underline;
+
 }
 .container {
   @apply mx-auto max-w-[1252px] px-5 max-xl:px-10 max-lg:px-6 max-sm:px-4;
