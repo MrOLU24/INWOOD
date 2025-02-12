@@ -9,7 +9,7 @@ const Header = () => {
         </a>
         <nav className="flex items-center w-full justify-end">
           {/* Hide ul on small screens, show from md and above */}
-          <ul className="hidden md:flex font-semibold items-center gap-10 md:m-auto lg:m-auto xl:m-auto">
+          <ul className="hidden md:flex font-semibold items-center gap-12 md:m-auto lg:m-auto xl:m-auto">
             <li>Home</li>
             <li>Shop</li>
             <li>About</li>
