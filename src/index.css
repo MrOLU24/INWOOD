@@ -19,3 +19,22 @@ ul li:hover{
 .container {
   @apply mx-auto max-w-[1252px] px-5 max-xl:px-10 max-lg:px-6 max-sm:px-4;
 }
+/* header h1{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.background-image{
+  background-image: url("/bg.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+}
+.wrapper{
+  margin-inline: auto;
+  z-index: 10;
+  position: relative;
+} */
