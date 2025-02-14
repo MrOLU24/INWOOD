@@ -11,7 +11,7 @@ const Home = () => {
       />
 
       {/* Overlay Text */}
-      <div className="absolute inset-0 flex items-center justify-center text-center text-white bg-opacity-40">
+      <div className="absolute inset-0 ml-72 text-white bg-opacity-40">
         <div className="bg-[#FFF3E3] text-black max-w-lg w-full p-6 md:p-10 ">
           <p className="text-[#B88e2f] font-bold uppercase">New Arrival</p>
           <h1 className="text-2xl md:text-4xl font-semibold">Discover Our New Collection</h1>
