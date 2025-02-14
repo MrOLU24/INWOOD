@@ -11,12 +11,13 @@ const Home = () => {
       />
 
       {/* Overlay Text */}
-      <div className="absolute inset-0 flex flex-col justify-self-end my-78  md:m-30  text-white bg-opacity-50">
-        <div className="bg-[#FFF3E3] max-w-lg w-full p-2 md:p-12 mt-20">
-        <p className="text-[#B88e2f] text-xs pt-2.5 font-bold uppercase mb-5">New Arrival</p>
-        <h1 className="text-[#BC943A] text-3xl md:text-4xl font-extrabold">Discover Our New Collection</h1>
-        <p className="text-black mt-2 font-[600]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempore riam aliquam itaque nemo ullam sit. Fugit.</p>
-        <button className="bg-[#BC943A] text-1xl cursor-pointer font-bold text-white px-6 py-2 mt-5">Buy Now</button>
+      <div className="absolute inset-0 flex items-center justify-center text-center text-white bg-opacity-40">
+        <div className="bg-[#FFF3E3] text-black max-w-lg w-full p-6 md:p-10 ">
+          <p className="text-[#B88e2f] font-bold uppercase">New Arrival</p>
+          <h1 className="text-2xl md:text-4xl font-semibold">Discover Our New Collection</h1>
+          <p className="mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempore aliquam itaque nemo ullam sit. Fugit.
+          </p>
         </div>
       </div>
     </main>
